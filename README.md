@@ -14,18 +14,15 @@ i) Using the program `sumArraysOnGPU-timer.cu`, set the `block.x = 1023`. Recomp
 ii) Refer to `sumArraysOnGPU-timer.cu`, and let `block.x = 256`. Make a new kernel to let each thread handle two elements. Compare the results with other execution configurations.  
 
 ---
-
 ## AIM  
 To perform vector addition on host and device.  
 
 ---
-
 ## EQUIPMENTS REQUIRED  
 - **Hardware:** PCs with NVIDIA GPU & CUDA NVCC  
 - **Software:** Google Colab with NVCC Compiler  
 
 ---
-
 ## PROCEDURE  
 
 1. Initialize the device and set the device properties.  
@@ -37,9 +34,7 @@ To perform vector addition on host and device.
 7. Free memory on the host and the device.  
 
 ---
-
 ## PROGRAM  
-
 
 ```
 !pip install git+https://github.com/andreinechaev/nvcc4jupyter.git
@@ -206,12 +201,11 @@ int main(int argc, char **argv)
 }
 ```
 ---
-
 ## OUTPUT  
 
 <img width="1432" height="173" alt="image" src="https://github.com/user-attachments/assets/41ae1c58-df3b-4b37-94ac-24d34fbe3d93" />
 
 ---
-
 ## RESULT  
+
 Thus, Implementation of sum arrays on host and device is done in **NVCC CUDA** using random numbers.
